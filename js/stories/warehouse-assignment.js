@@ -28,10 +28,10 @@ var map_vertices = d3
   .select("#swa-map-outline")
   .select("polygon")
   .attr("points")
-  .split(" ")
+  .split(", ")
   .map(function (d) {
-    var x = +d.split(",")[0] + 280;
-    var y = +d.split(",")[1] + 240;
+    var x = +d.split(" ")[0] + 330;
+    var y = +d.split(" ")[1] + 280;
     return [x, y];
   });
 var client1_dot_data = [{ x: 500, y: 450 }];
@@ -50,7 +50,7 @@ for (var i = 0; i < 1400; i++) {
   if (h == 5) {
     h = 0;
   }
-  var r = Math.pow(Math.random() * 8000, 0.56);
+  var r = Math.pow(Math.random() * 9000, 0.56);
   var a = Math.random() * Math.PI * 2;
   var x = hizzy_data[h].x + Math.sin(a) * r;
   var y = hizzy_data[h].y + Math.cos(a) * r;
