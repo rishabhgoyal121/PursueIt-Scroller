@@ -58,12 +58,12 @@ function run_inventory_management_sim(
       height = 600;
 
     var lines_margin = {
-        top: 40,
-        right: 15,
-        bottom: 340,
-        left: 500,
-        top2: 320,
-      },
+      top: 40,
+      right: 15,
+      bottom: 340,
+      left: 500,
+      top2: 320,
+    },
       lines_width = width - lines_margin.left - lines_margin.right,
       lines_height = height - lines_margin.top - lines_margin.bottom;
 
@@ -221,9 +221,9 @@ function run_inventory_management_sim(
             Math.min(
               95,
               capacities[i] -
-                demand[i] * demand_impact -
-                this_clearance * clearance_impact +
-                allocation[i] * allocation_impact
+              demand[i] * demand_impact -
+              this_clearance * clearance_impact +
+              allocation[i] * allocation_impact
             )
           );
         }
@@ -730,12 +730,12 @@ function run_inventory_management_sim(
     svg.html("");
 
     var lines_margin = {
-        top: 40,
-        right: 15,
-        bottom: 340,
-        left: 500,
-        top2: 320,
-      },
+      top: 40,
+      right: 15,
+      bottom: 340,
+      left: 500,
+      top2: 320,
+    },
       lines_width = width - lines_margin.left - lines_margin.right,
       lines_height = height - lines_margin.top - lines_margin.bottom;
 
@@ -810,7 +810,7 @@ function run_inventory_management_sim(
       .attr("y", 10)
       .attr("font-size", "14px")
       .attr("fill", "#847c77")
-      .text("for a single stock keeping unit (SKU)");
+      .text("for a single Listing");
 
     graph_label_text
       .append("path")
