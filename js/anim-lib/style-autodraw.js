@@ -56,8 +56,8 @@ function draw_new_blouse(
     .attr("class", "blouse-underlay")
     .attr(
       "xlink:href",
-      "Trampoline-svg-crop/furniture-color/bedsidetable-2.svg"
-    ).attr("transform", "translate(294,248) scale(0.45)")
+      "PursueIt-img/svg-icons-colored/Swimming.svg"
+    ).attr("transform", "translate(285,238)")
     .style("opacity", 1e-6)
     .transition()
     .delay(1000)
