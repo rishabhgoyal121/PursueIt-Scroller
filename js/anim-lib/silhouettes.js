@@ -215,32 +215,32 @@ function detailed_client_outline_g(client_n) {
   }
   // return male client-tshirt2 svg path -> male-sleeveless -> factory
   if (client_n == 6) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/factory-white.svg" transform = "scale(0.5)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/male-white/male-bow-white.svg" transform = "scale(0.3)" ></image >';
   }
 }
 function detailed_inventory_outline_g(client_n) {
-  // return female client-vneck svg path -> female-top-vest -> drawer white
+  // return female client-vneck svg path -> female-top-vest -> drawer white -> martial arts
   if (client_n == 1) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/furniture-white/drawer-white.svg" transform = "scale(0.3)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="PursueIt-img/svg-icons/Martial-Arts.svg" transform = "scale(0.3)" ></image >';
   }
-  // return female client-tshirt svg path -> female-top-slant -> sofa white
+  // return female client-tshirt svg path -> female-top-slant -> sofa white -> skateboard
   if (client_n == 2) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/furniture-white/sofa-white.svg" transform = "scale(0.3)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="PursueIt-img/svg-icons/Skateboard.svg" transform = "scale(0.3)" ></image >';
   }
-  // return female client-bun svg path -> female-v-neck -> mirror table white
+  // return female client-bun svg path -> female-v-neck -> mirror table white -> dance
   if (client_n == 3) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/furniture-white/mirror-table-white.svg" transform = "scale(0.3)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="PursueIt-img/svg-icons/Dance.svg" transform = "scale(0.3)" ></image >';
   }
-  // return male client-tie svg path -> male-jacket -> table lamp white
+  // return male client-tie svg path -> male-jacket -> table lamp white -> football
   if (client_n == 4) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/furniture-white/table-lamp-white.svg" transform = "scale(0.3)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="PursueIt-img/svg-icons/Football.svg" transform = "scale(0.3)" ></image >';
   }
-  // return male client-tshirt svg path -> male-collar -> mirror white(opaque)
+  // return male client-tshirt svg path -> male-collar -> mirror white(opaque) -> cooking
   if (client_n == 5) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/furniture-white/mirror-white.svg" transform = "scale(0.3)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="PursueIt-img/svg-icons/Cooking.svg" transform = "scale(0.3)" ></image >';
   }
-  // return male client-tshirt2 svg path -> male-sleeveless -> factory -> chair white
+  // return male client-tshirt2 svg path -> male-sleeveless -> factory -> chair white -> fitness
   if (client_n == 6) {
-    return '<image overflow="visible" width="91" height="154" xlink:href="Trampoline-svg-crop/furniture-white/chair-white.svg" transform = "scale(0.3)" ></image >';
+    return '<image overflow="visible" width="91" height="154" xlink:href="PursueIt-img/svg-icons/Fitness.svg" transform = "scale(0.3)" ></image >';
   }
 }
