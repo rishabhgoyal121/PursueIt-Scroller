@@ -19,3 +19,11 @@ This document tracks major and minor project decisions for `PursueIt-Scroller`.
   - Omit all placeholders.
 - Rationale: Maintains accuracy and avoids introducing false claims in public-facing documentation.
 - Impact: README quality improved immediately while preserving factual correctness.
+
+### D-003: Convert README References to Clickable Markdown Links
+- Decision: Convert localhost run URL and screenshot placeholder paths in README to Markdown links.
+- Alternatives considered:
+  - Keep references as inline code text.
+  - Convert only deployed/public URLs.
+- Rationale: Gives reviewers one-click navigation consistency and reduces friction while evaluating the repository.
+- Impact: README usability improved without changing project setup or behavior.

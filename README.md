@@ -44,15 +44,15 @@ cd PursueIt-Scroller
 python3 -m http.server 8080
 ```
 
-Then open `http://localhost:8080`.
+Then open [http://localhost:8080](http://localhost:8080).
 
 ## Screenshots
 
 <!-- TODO: Replace placeholders with actual screenshots/GIFs from the live scrollytelling flow. -->
-- `docs/screenshots/intro-scene.png` (placeholder)
-- `docs/screenshots/scroll-story-transition.png` (placeholder)
-- `docs/screenshots/d3-animation-scene.png` (placeholder)
-- `docs/screenshots/final-section.png` (placeholder)
+- [`docs/screenshots/intro-scene.png`](docs/screenshots/intro-scene.png) (placeholder)
+- [`docs/screenshots/scroll-story-transition.png`](docs/screenshots/scroll-story-transition.png) (placeholder)
+- [`docs/screenshots/d3-animation-scene.png`](docs/screenshots/d3-animation-scene.png) (placeholder)
+- [`docs/screenshots/final-section.png`](docs/screenshots/final-section.png) (placeholder)
 
 ## Recruiter Summary
 
